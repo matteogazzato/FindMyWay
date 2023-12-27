@@ -50,7 +50,7 @@ struct NavigationController<RootView: View>: UIViewControllerRepresentable {
                 animated: true
             )
         case .popToRoot:
-            navigationController.popToViewController(<#T##viewController: UIViewController##UIViewController#>, animated: <#T##Bool#>)
+            navigationController.popToRootViewController(animated: true)
         case .dismiss:
             navigationController.dismiss(animated: true)
         }
